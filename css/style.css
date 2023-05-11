@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('/img/bg.jpg');
+}
+
+.header {
+    width: 100%;
+    background-image: url('/img/logo.png');
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center top;
+    text-align: center;
+}
+
+.header--h1 {
+    padding-top: 200px;
+    font-size: 36px;
+    font-family: 'Alkatra';
+    color: red;
+}
+
+.navbar {
+    background-color: red;
+    height: 50px;
+}
+
+.navbar--ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.navbar--ul--li {
+    list-style: none;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 25px;
+    text-transform: capitalize;
+    color: white;
+    padding-top: 15px;
+    height: 80%;
+    width: 80px;
+}
+
+.main {
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+.main--section {
+    width: 100%;
+}
+
+.main--section--title {
+    margin-top: 30px;
+    font-size: 40px;
+    font-family: 'Alkatra';
+}
+
+.main--section--cosplay {
+    width: 60%;
+}
+
+.main--section--para {
+    font-family: 'Alkatra';
+    text-align: start;
+    transform: translateX(33%);
+    width: 60%;
+}
+
+footer {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer img {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    width: 10%;
+}
+
+li:hover {
+    background-color: #d1e000;
+}
+
+.news:hover section {
+    display: flex;
+    left: 41.5%;
+}
+
+.galery:hover section {
+    display: flex;
+    left: 41.5%;
+}
+
+.press:hover section {
+    display: flex;
+    left: 41.5%;
+}
+
+.contact:hover section {
+    display: flex;
+    left: 41.5%;
+}
+
+li section {
+    display: none;
+    background: linear-gradient(to bottom, #d1e000, #0ea532);
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    margin-top: 13px;
+    transform: translateX(-42%);
+    height: 700px;
+}
+
+section article {
+    width: 50%;
+}
+
+section article img {
+    margin-top: 30px;
+}
+
+section article h2,
+section article h3 {
+    font-size: 24px;
+    color: black;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section article ul {
+    list-style: none;
+}
+
+section article ul li {
+    margin-top: 5px;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
